@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+body{
+    margin: 0;
+    text-align: justify;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 18px 0;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    box-shadow: 0 2px 4px 0 rgba(114, 113, 113, 0.2), 0 4px 6px 0 rgba(143, 142, 142, 0.19);
+}
+
+.logo{
+    color: #27b6c0;
+}
+
+.logo h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 23px;
+    text-shadow: 0 5px 0 rgb(198, 198, 199),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);
+}
+    
+
+.menu{
+    width: 80%;
+    text-align: right;
+}
+
+.menu a{
+    color: #124265;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.menu a:hover{
+    color: #007bff;
+}
+
+section{
+    margin-top:48px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 17%;
+    background-color: #dee0e2;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    overflow-y: scroll;
+}
+  
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+li a.active {
+    background-color: #15bbc7;
+    color: white;
+    font-size: 19px;
+    margin-top: 18px;
+  }
+  
+li a:hover:not(.active) {
+    background-color: rgb(160, 158, 158);
+    color: white;
+  }
+
+.conteudo{
+    text-align: justify;
+    line-height: 1.8;
+    margin-top: 64px;
+    margin-left:20%;
+    margin-right: 8%;
+    padding:15px 0px;
+    height:1000px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.conteudo img{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.conteudo p,h3{
+    margin-top: 30px;
+}
+
+table{
+border-collapse: collapse;
+width: 100%;
+}
+
+tr {
+border-bottom: 1px solid #ddd;
+}
+
+footer{
+    background-color:#15bbc767;
+    text-align: center;
+    padding: 10px;
+    margin-left: 150px;
+    height: 100px;
+    font-size: 16px;
+    margin-top: 1500px;
+    color: rgb(63, 62, 62);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer p{
+    margin-top: 20px;
+}
+
+.borda p{
+    border-left: 50px solid rgb(89, 171, 238);
+    background-color: rgb(214, 209, 209);
+    color: green;
+  
+}
+
+.lista p{
+    border-left: 50px solid rgb(89, 171, 238);
+    background-color: rgb(214, 209, 209);
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4c93af;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(184, 183, 183);
+  }
+  
+  .button:hover {background-color: #3e7b8e}
+  
+  .button:active {
+    background-color: #3e618e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+
+  
+
+
+
